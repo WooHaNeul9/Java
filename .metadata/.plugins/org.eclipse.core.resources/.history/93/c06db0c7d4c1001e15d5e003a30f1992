@@ -1,0 +1,17 @@
+package JavaStudyTwo;
+
+public class Study {
+
+	public static void main(String[] args) {
+		
+		int sum = 0;
+		
+		for (int i = 0; i <= 10; i++) {
+			if(sum % 2 == 0) {
+				sum = sum + i;
+			}
+		}
+
+	}
+
+}
