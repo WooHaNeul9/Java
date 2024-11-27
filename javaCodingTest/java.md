@@ -10,24 +10,20 @@
 
 > ### 형변환
 ##### 1. 문자 - 숫자
-- Integer.perseInt(변환할 변수)
-- Integer.valueOf(변환할 변수)
-- Double.valueOf(변환할 변수)
-- Float.valueOf(변환할 변수)
-- Long.valueOf(변환할 변수)
-- Short.valueOf(변환할 변수)
+- Integer.parseInt(변환할 변수) // int 타입으로 변환
+- Integer.valueOf(변환할 변수)  // Integer 객체로 변환
+- Double.valueOf(변환할 변수)   // Double 객체로 변환
+- Float.valueOf(변환할 변수)    // Float 객체로 변환
+- Long.valueOf(변환할 변수)     // Long 객체로 변환
+- Short.valueOf(변환할 변수)    // Short 객체로 변환
 ##### 2. 숫자 - 문자
-- String.valueOf(변환할 변수)
-- Integer.valueOf(변환할 변수)
+- String.valueOf(변환할 변수)   // 숫자를 문자열(String)로 변환
+- Integer.toString(변환할 변수) // 숫자를 문자열(String)로 변환
 ##### 3. 정수 - 실수
-- num이 Double일 때, 
-Double - Int 변환 : (int)num
-- num이 Float일 때, 
-Float - Int 변환 : (int)num
-- num이 Int일 때, 
-Int - Double : (Double)num
-- num이 Int일 때, 
-Int - Float : (Float)num
+### 3. 정수 ↔ 실수
+- 정수 → 실수: (double)num, (float)num
+- 실수 → 정수: (int)num (소수점 제거)
+- 실수 → 정수(반올림): (int)Math.round(num)
 
 > ### 문자열 배열
 String[] numArr = num_str.split("") //문자열을 한 글자씩 나눠 배열로 변환

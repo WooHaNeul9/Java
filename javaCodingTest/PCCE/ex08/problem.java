@@ -1,10 +1,10 @@
-package PCCE;
+package PCCE.ex08;
 
 import java.util.Scanner;
 
 // 문자열 str이 주어진다.
 // 가로로 되어있는 문자열을 세로로 돌려서 출력하는 코드
-public class Problem_eight {
+public class problem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();

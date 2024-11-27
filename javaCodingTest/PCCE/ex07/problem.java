@@ -1,4 +1,4 @@
-package PCCE;
+package PCCE.ex07;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 // 입출력 예와 같이 str1과 str2를 이어서 출력하는 코드
 // 입력 예 : apple pen
 // 출력 예 : applepen
-public class problem_seven {
+public class problem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
